@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
+import os
 
 # 1. Page Configuration
 st.set_page_config(page_title="NephroGuard: CKD Predictor", page_icon="🩺", layout="wide")
@@ -15,10 +16,21 @@ st.markdown("""
 # We use st.cache_resource so these large files are only loaded once, making the app fast
 @st.cache_resource
 def load_artifacts():
-    model = joblib.load('saved_models/ckd_random_forest_model.pkl')
-    scaler = joblib.load('saved_models/ckd_scaler.pkl')
-    label_encoders = joblib.load('saved_models/ckd_label_encoders.pkl')
-    expected_features = joblib.load('saved_models/ckd_expected_features.pkl')
+    # Get the directory where app.py is currently located
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construct absolute paths
+    model_path = os.path.join(current_dir, 'saved_models', 'ckd_random_forest_model.pkl')
+    scaler_path = os.path.join(current_dir, 'saved_models', 'ckd_scaler.pkl')
+    label_encoder_path = os.path.join(current_dir, 'saved_models', 'ckd_label_encoders.pkl')
+    features_path = os.path.join(current_dir, 'saved_models', 'ckd_expected_features.pkl')
+
+    # Load artifacts using absolute paths
+    model = joblib.load(model_path)
+    scaler = joblib.load(scaler_path)
+    label_encoders = joblib.load(label_encoder_path)
+    expected_features = joblib.load(features_path)
+    
     return model, scaler, label_encoders, expected_features
 
 model, scaler, label_encoders, expected_features = load_artifacts()
