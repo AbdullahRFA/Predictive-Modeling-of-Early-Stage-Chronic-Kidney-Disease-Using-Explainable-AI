@@ -83,4 +83,4 @@ if st.button("Predict Kidney Disease Risk", type="primary"):
     else:
         st.success(f"✅ **Low Risk. No CKD detected.**")
         st.write(f"**Model Confidence:** {prediction_proba[0] * 100:.2f}%")
-        st.write("Recommendation: Continue standard preventative care.") 
+        st.write("Recommendation: Continue standard preventative care.")
