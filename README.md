@@ -20,11 +20,13 @@
 | Diagnostic Result(Disease Detected) | Diagnostic Result(Disease does not Detected) | 
 |:---:|:---:|
 | <img src="/SS/Screenshot 2026-07-28 at 12.32.46 PM.png" width="400"> | <img src="/SS/Screenshot 2026-07-28 at 12.29.38 PM.png" width="400"> |
+
 ---
 
 ## 📑 Table of Contents
+
+
 - [📸 Screenshots](#-screenshots)
-- [|  |  |](#----)
 - [📑 Table of Contents](#-table-of-contents)
 - [🏥 1. Clinical Problem Statement \& Project Overview](#-1-clinical-problem-statement--project-overview)
   - [The Research Gap](#the-research-gap)
@@ -46,7 +48,7 @@
 - [📂 10. Repository Structure](#-10-repository-structure)
 - [🎓 11. Academic Context \& Developer Profile](#-11-academic-context--developer-profile)
 - [📜 12. License \& Acknowledgments](#-12-license--acknowledgments)
-
+- [👨‍💻 Author](#-author)
 ---
 
 ## 🏥 1. Clinical Problem Statement & Project Overview
@@ -268,6 +270,16 @@ The developer maintains a sustained interest in the **Internet of Things (IoT) a
 *   **Libraries:** Built entirely on open-source frameworks including `scikit-learn`, `Streamlit`, and `SHAP`.
 *   **LLM API:** Utilizing Google Generative AI (Gemini 1.5 Flash) for multimodal vision extraction.
 
+---
+## 👨‍💻 Author
+
+**Abdullah Nazmus-Sakib**
+
+- **Role:** Computer Science & Engineering Undergraduate Developer
+- **Specializations:** Full-Stack Developer (MERN, Python/Django/Flask, Next.js, TypeScript, MySQL) | AI/ML & SQA Learner | Flutter Developer
+- **Status:** Aspiring Software Engineer | Open to Software Engineering Internships
+- **GitHub:** [@AbdullahRFA](https://github.com/AbdullahRFA)
+- **LinkedIn:** [@AbdullahRFA](https://www.linkedin.com/in/abdullahrfa/)
 ---
 <div align="center">
   <p><i>Building accessible AI for early intervention. Because every diagnosis matters.</i></p>
