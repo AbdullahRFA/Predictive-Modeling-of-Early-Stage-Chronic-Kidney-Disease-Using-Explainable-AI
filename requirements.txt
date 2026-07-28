@@ -6,3 +6,5 @@ scikit-learn
 shap
 joblib
 streamlit
+pillow
+google-generativeai
