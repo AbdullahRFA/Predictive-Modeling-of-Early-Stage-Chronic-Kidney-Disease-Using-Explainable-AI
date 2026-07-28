@@ -5,18 +5,47 @@
 
 ---
 
+## 📸 Screenshots
+
+| Home |
+|:---:|
+| <img src="/SS/Screenshot 2026-07-28 at 12.28.51 PM.png" width="800"> |
+
+
+| Verify & Enter Patient Data | 
+|:---:|
+| <img src="/SS/Screenshot 2026-07-28 at 12.31.48 PM.png" width="800"> | 
+
+
+| Diagnostic Result(Disease Detected) | Diagnostic Result(Disease does not Detected) | 
+|:---:|:---:|
+| <img src="/SS/Screenshot 2026-07-28 at 12.32.46 PM.png" width="400"> | <img src="/SS/Screenshot 2026-07-28 at 12.29.38 PM.png" width="400"> |
+---
+
 ## 📑 Table of Contents
-1. [Clinical Problem Statement & Project Overview](#1-clinical-problem-statement--project-overview)
-2. [Key Innovations & Features](#2-key-innovations--features)
-3. [System Architecture & ML Pipeline](#3-system-architecture--ml-pipeline)
-4. [Dataset & Clinical Features](#4-dataset--clinical-features)
-5. [Data Cleaning, Imputation, & Preprocessing](#5-data-cleaning-imputation--preprocessing)
-6. [Model Training, Evaluation, & Hyperparameter Tuning](#6-model-training-evaluation--hyperparameter-tuning)
-7. [Explainable AI (XAI) Integration](#7-explainable-ai-xai-integration)
-8. [Deployment & Multimodal AI Interface](#8-deployment--multimodal-ai-interface)
-9. [Installation & Setup Guide](#9-installation--setup-guide)
-10. [Repository Structure](#10-repository-structure)
-11. [Academic Context & Developer Profile](#11-academic-context--developer-profile)
+- [📸 Screenshots](#-screenshots)
+- [|  |  |](#----)
+- [📑 Table of Contents](#-table-of-contents)
+- [🏥 1. Clinical Problem Statement \& Project Overview](#-1-clinical-problem-statement--project-overview)
+  - [The Research Gap](#the-research-gap)
+- [✨ 2. Key Innovations \& Features](#-2-key-innovations--features)
+- [🏗️ 3. System Architecture \& ML Pipeline](#️-3-system-architecture--ml-pipeline)
+- [📊 4. Dataset \& Clinical Features](#-4-dataset--clinical-features)
+  - [Expected Clinical Features (24 Independent Variables)](#expected-clinical-features-24-independent-variables)
+- [🧹 5. Data Cleaning, Imputation, \& Preprocessing](#-5-data-cleaning-imputation--preprocessing)
+- [⚙️ 6. Model Training, Evaluation, \& Hyperparameter Tuning](#️-6-model-training-evaluation--hyperparameter-tuning)
+  - [The Metric Shift](#the-metric-shift)
+  - [Hyperparameter Tuning (`GridSearchCV`)](#hyperparameter-tuning-gridsearchcv)
+- [🧠 7. Explainable AI (XAI) Integration](#-7-explainable-ai-xai-integration)
+- [💻 8. Deployment \& Multimodal AI Interface](#-8-deployment--multimodal-ai-interface)
+  - [Complete Pipeline Serialization](#complete-pipeline-serialization)
+  - [Multimodal Vision Architecture (Google Gemini Flash 1.5)](#multimodal-vision-architecture-google-gemini-flash-15)
+- [🚀 9. Installation \& Setup Guide](#-9-installation--setup-guide)
+  - [Prerequisites](#prerequisites)
+  - [Step-by-Step Installation](#step-by-step-installation)
+- [📂 10. Repository Structure](#-10-repository-structure)
+- [🎓 11. Academic Context \& Developer Profile](#-11-academic-context--developer-profile)
+- [📜 12. License \& Acknowledgments](#-12-license--acknowledgments)
 
 ---
 
